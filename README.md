@@ -4,7 +4,7 @@
   - Acces jalapeno for local machine
   - Set up topology on gcloud
   - Set up gcloud firewall
-  - Access Arango DB via python
+  - Access ArangoDB via python
   - Config of R1 and R3
   - Connection between R3 and Host (Jalapeno)
   - GoBMP collection in Jalapeno
@@ -12,7 +12,11 @@
   - Connection between R1 and Host (Jalapeno)
   - Connection between R3 and Host (Data)
   - Simulate traffic between host and routers
-
-## TODO :
   - Acces influxDB
+  - Access influxDB via python
+## PROBLEMS :
+  - SR counters ?
+## TODO :
+  - Select important influx data
   - Collect traffic data with python script
+  

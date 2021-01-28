@@ -11,6 +11,7 @@
   - Fetching topology data in python script
   - Connection between R1 and Host (Jalapeno)
   - Connection between R3 and Host (Data)
+  - Simulate traffic between host and routers
 
 ## TODO :
   - Acces influxDB

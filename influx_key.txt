@@ -1,0 +1,142 @@
+> show tag keys
+name: Cisco-IOS-XR-pfi-im-cmd-oper:interfaces/interface-xr/interface
+tagKey
+------
+host
+interface_name
+path
+source
+subscription
+
+name: openconfig-interfaces:interfaces/interface
+tagKey
+------
+host
+name
+path
+source
+subscription
+> show field keys
+name: Cisco-IOS-XR-pfi-im-cmd-oper:interfaces/interface-xr/interface
+fieldKey                                                                    fieldType
+--------                                                                    ---------
+arp_information/arp_is_learning_disabled                                    string
+arp_information/arp_timeout                                                 integer
+arp_information/arp_type_name                                               string
+bandwidth                                                                   integer
+burned_in_address/address                                                   string
+carrier_delay/carrier_delay_down                                            integer
+carrier_delay/carrier_delay_up                                              integer
+data_rates/bandwidth                                                        integer
+data_rates/input_data_rate                                                  integer
+data_rates/input_load                                                       integer
+data_rates/input_packet_rate                                                integer
+data_rates/load_interval                                                    integer
+data_rates/output_data_rate                                                 integer
+data_rates/output_load                                                      integer
+data_rates/output_packet_rate                                               integer
+data_rates/peak_input_data_rate                                             integer
+data_rates/peak_input_packet_rate                                           integer
+data_rates/peak_output_data_rate                                            integer
+data_rates/peak_output_packet_rate                                          integer
+data_rates/reliability                                                      integer
+description                                                                 string
+duplexity                                                                   string
+encapsulation                                                               string
+encapsulation_type_string                                                   string
+fast_shutdown                                                               string
+hardware_type_string                                                        string
+if_index                                                                    integer
+in_flow_control                                                             string
+interface_handle                                                            string
+interface_statistics/full_interface_stats/applique                          integer
+interface_statistics/full_interface_stats/availability_flag                 integer
+interface_statistics/full_interface_stats/broadcast_packets_received        integer
+interface_statistics/full_interface_stats/broadcast_packets_sent            integer
+interface_statistics/full_interface_stats/bytes_received                    integer
+interface_statistics/full_interface_stats/bytes_sent                        integer
+interface_statistics/full_interface_stats/carrier_transitions               integer
+interface_statistics/full_interface_stats/crc_errors                        integer
+interface_statistics/full_interface_stats/framing_errors_received           integer
+interface_statistics/full_interface_stats/giant_packets_received            integer
+interface_statistics/full_interface_stats/input_aborts                      integer
+interface_statistics/full_interface_stats/input_drops                       integer
+interface_statistics/full_interface_stats/input_errors                      integer
+interface_statistics/full_interface_stats/input_ignored_packets             integer
+interface_statistics/full_interface_stats/input_overruns                    integer
+interface_statistics/full_interface_stats/input_queue_drops                 integer
+interface_statistics/full_interface_stats/last_data_time                    integer
+interface_statistics/full_interface_stats/last_discontinuity_time           integer
+interface_statistics/full_interface_stats/multicast_packets_received        integer
+interface_statistics/full_interface_stats/multicast_packets_sent            integer
+interface_statistics/full_interface_stats/output_buffer_failures            integer
+interface_statistics/full_interface_stats/output_buffers_swapped_out        integer
+interface_statistics/full_interface_stats/output_drops                      integer
+interface_statistics/full_interface_stats/output_errors                     integer
+interface_statistics/full_interface_stats/output_queue_drops                integer
+interface_statistics/full_interface_stats/output_underruns                  integer
+interface_statistics/full_interface_stats/packets_received                  integer
+interface_statistics/full_interface_stats/packets_sent                      integer
+interface_statistics/full_interface_stats/parity_packets_received           integer
+interface_statistics/full_interface_stats/resets                            integer
+interface_statistics/full_interface_stats/runt_packets_received             integer
+interface_statistics/full_interface_stats/seconds_since_last_clear_counters integer
+interface_statistics/full_interface_stats/seconds_since_packet_received     integer
+interface_statistics/full_interface_stats/seconds_since_packet_sent         integer
+interface_statistics/full_interface_stats/throttled_packets_received        integer
+interface_statistics/full_interface_stats/unknown_protocol_packets_received integer
+interface_statistics/stats_type                                             string
+interface_type                                                              string
+ip_information/ip_address                                                   string
+ip_information/subnet_mask_length                                           integer
+is_dampening_enabled                                                        string
+is_intf_logical                                                             string
+is_l2_looped                                                                string
+is_l2_transport_enabled                                                     string
+last_state_transition_time                                                  integer
+line_state                                                                  string
+link_type                                                                   string
+mac_address/address                                                         string
+max_bandwidth                                                               integer
+media_type                                                                  string
+mtu                                                                         integer
+out_flow_control                                                            string
+speed                                                                       integer
+state                                                                       string
+state_transition_count                                                      integer
+
+name: openconfig-interfaces:interfaces/interface
+fieldKey                                                            fieldType
+--------                                                            ---------
+hold_time/state/down                                                integer
+hold_time/state/up                                                  integer
+openconfig_if_ethernet:ethernet/state/counters/in_8021q_frames      integer
+openconfig_if_ethernet:ethernet/state/counters/in_crc_errors        integer
+openconfig_if_ethernet:ethernet/state/counters/in_fragment_frames   integer
+openconfig_if_ethernet:ethernet/state/counters/in_jabber_frames     integer
+openconfig_if_ethernet:ethernet/state/counters/in_mac_pause_frames  integer
+openconfig_if_ethernet:ethernet/state/counters/in_oversize_frames   integer
+openconfig_if_ethernet:ethernet/state/counters/out_8021q_frames     integer
+openconfig_if_ethernet:ethernet/state/counters/out_mac_pause_frames integer
+state/admin_status                                                  string
+state/counters/in_broadcast_pkts                                    integer
+state/counters/in_discards                                          integer
+state/counters/in_errors                                            integer
+state/counters/in_multicast_pkts                                    integer
+state/counters/in_octets                                            integer
+state/counters/in_unicast_pkts                                      integer
+state/counters/in_unknown_protos                                    integer
+state/counters/out_broadcast_pkts                                   integer
+state/counters/out_discards                                         integer
+state/counters/out_errors                                           integer
+state/counters/out_multicast_pkts                                   integer
+state/counters/out_octets                                           integer
+state/counters/out_unicast_pkts                                     integer
+state/description                                                   string
+state/enabled                                                       string
+state/ifindex                                                       integer
+state/last_change                                                   integer
+state/mtu                                                           integer
+state/name                                                          string
+state/oper_status                                                   string
+state/type                                                          string

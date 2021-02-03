@@ -14,6 +14,8 @@
   - Simulate traffic between host and routers
   - Acces influxDB
   - Access influxDB via python
+  - Config full topology
+  - Connect all routers to jalapeno
 ## PROBLEMS :
   - SR counters ?
 ## TODO :

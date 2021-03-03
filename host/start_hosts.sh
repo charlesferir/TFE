@@ -1,7 +1,7 @@
 # Jalapeno
 ip addr add 10.0.253.1/24 dev br7
 ifconfig br7 up
-ip route add 10.0.0.0/24 via 10.0.253.2 dev br7
+ip route add 10.0.0.0/16 via 10.0.253.2 dev br7
  
 # H1 setup
 ip netns add host1

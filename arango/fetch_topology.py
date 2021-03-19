@@ -34,8 +34,16 @@ for node in nodes:
 	interfaces = topology[node['RouterID']]['interfaces']
 	for link in links:
 		# retreives router neighbors adn their liked interface
-		interfaces[link['FromInterfaceName']] = link['RemoteRouterID']
-	
+		interfaces[link['FromInterfaceName']] = {}
+		interfaces[link['FromInterfaceName']]['connected-to'] = link['RemoteRouterID']
+
+		if link['FromInterfaceIP'] < link['ToInterfaceIP']:
+			interfaces[link['FromInterfaceName']]['link-ID'] = \
+				link['FromInterfaceIP'] + ':' + link['ToInterfaceIP']
+		else:
+			interfaces[link['FromInterfaceName']]['link-ID'] = \
+				link['ToInterfaceIP'] + ':' + link['FromInterfaceIP']
+
 
 print(json.dumps(topology, indent=4, sort_keys=True))
 	

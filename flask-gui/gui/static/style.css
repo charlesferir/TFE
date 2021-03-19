@@ -1,0 +1,58 @@
+.link-deco {
+	background-color: #E5E5E5;
+	opacity: 0.2;
+}
+
+.link-info- {
+	color: #7C7C7C;
+	font-size:14px;
+}
+
+.green {
+	stroke: rgb(203, 227, 216);
+}
+
+.orange {
+	stroke: rgb(255, 241, 198);
+}
+
+.red {
+	stroke: rgb(247, 209, 213);
+}
+
+
+.node circle {
+	cursor: pointer;
+	fill: #D7F7FF;
+	stroke: #000;
+	stroke-width: .5px;
+}
+
+rect {
+	cursor: pointer;
+	fill: #F8FBFB;
+	stroke: #000;
+	stroke-width: .5px;
+}
+
+.icon {
+	cursor: pointer;
+	font-size:30px;
+	background-color:blue;
+}
+
+.links line {
+	fill: none;
+	stroke-width: 8px;
+}
+
+.router-name {
+	fill: #000000;
+}
+
+.center {
+	text-align: center;
+	border: 5px solid grey;
+	margin: auto;
+	display: inline-block;
+}

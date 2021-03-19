@@ -1,0 +1,50 @@
+{
+    "10.0.0.0": {
+        "name": "R00",
+        "prefix-sid": 100100,
+        "interfaces": {
+            "GigabitEthernet0/0/0/0": {
+                "connected-to": "10.0.0.1",
+                "link-ID": "10.1.1.0:10.1.1.1"
+            }
+        }
+    },
+    "10.0.0.3": {
+        "name": "R03",
+        "prefix-sid": 100103,
+        "interfaces": {
+            "GigabitEthernet0/0/0/2": {
+                "connected-to": "10.0.0.2",
+                "link-ID": "10.1.1.10:10.1.1.11"
+            }
+        }
+    },
+    "10.0.0.1": {
+        "name": "R01",
+        "prefix-sid": 100101,
+        "interfaces": {
+            "GigabitEthernet0/0/0/0": {
+                "connected-to": "10.0.0.0",
+                "link-ID": "10.1.1.0:10.1.1.1"
+            },
+            "GigabitEthernet0/0/0/1": {
+                "connected-to": "10.0.0.2",
+                "link-ID": "10.1.1.6:10.1.1.7"
+            }
+        }
+    },
+    "10.0.0.2": {
+        "name": "R02",
+        "prefix-sid": 100102,
+        "interfaces": {
+            "GigabitEthernet0/0/0/2": {
+                "connected-to": "10.0.0.3",
+                "link-ID": "10.1.1.10:10.1.1.11"
+            },
+            "GigabitEthernet0/0/0/1": {
+                "connected-to": "10.0.0.1",
+                "link-ID": "10.1.1.6:10.1.1.7"
+            }
+        }
+    }
+}
